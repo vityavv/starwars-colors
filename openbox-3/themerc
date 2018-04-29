@@ -4,30 +4,30 @@
 
 !! Menu background
 menu.items.bg: flat gradient vertical
-menu.items.bg.color: #353836
-menu.items.bg.colorTo: #353836
+menu.items.bg.color: #21120e
+menu.items.bg.colorTo: #21120e
 menu.border.width: 1
-menu.border.color: #98971A
+menu.border.color: #e3800d
 menu.overlap.x: -12
 menu.overlap.y:	0
 
 !! Menu text
-menu.items.text.color: #F6CB33
+menu.items.text.color: #fbe5a4
 menu.items.justify: left
 menu.items.disabled.text.color: #606060
 
 !! Menu headers
 menu.title.bg: flat raised horizontal gradient
-menu.title.bg.color: #282828
-menu.title.bg.colorTo: #282828
-menu.title.text.color: #98971A
+menu.title.bg.color: #372926
+menu.title.bg.colorTo: #372926
+menu.title.text.color: #fbe5a4
 menu.title.text.justify: left
 
 !! Selected menu item
 menu.items.active.bg: flat horizontal gradient
-menu.items.active.bg.color: #98971A
-menu.items.active.bg.colorTo: #98971A
-menu.items.active.text.color: #2B2C2B
+menu.items.active.bg.color: #fbe5a4
+menu.items.active.bg.colorTo: #fbe5a4
+menu.items.active.text.color: #21120e
 
 
 !! WINDOW SETTINGS
