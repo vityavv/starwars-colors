@@ -1,0 +1,45 @@
+Setup:
+Install, enter custom setup when prompted, make sure that only the 
+default stuff is checked, and continue.
+install patterns-base-x11
+download/install fira mono and move to ~/.fonts folder
+install openbox, feh, urxvt, git
+clone https://github.com/vityavv/starwars-colors.git
+link dots/.Xresources to ~/.Xresources from the starwars-colors repo, 
+xrdb the Xresources, and restart urxvt
+echo "exec openbox-session" > ~/.xinitrc
+echo "feh --bg-scale /path/to/background.image" > ~/.config/openbox/autostart
+startx to start
+open obconf, go to themes, create theme with starwars-colors folder, 
+install said theme
+go into ~/.config/openbox/rc.xml, search for <applications>, right under 
+it insert: <application class="*"><decor>no</decor></application>
+openbox --reconfigure
+restart anything you want
+
+Configure sound:
+open yast (gui is easier), go to software repositories, click add, click 
+community repositories, click next, check Packman, and click OK.
+open yast, go to software management, click view, click repositories, 
+click on Packman, click on the link-like thing at the top that says 
+"Switch system packages to the versions in this repository"
+*this isn't for sound, this is just for codecs
+install pulseaudio and pavucontrol, use pavucontrol or alsamixer to 
+change volume
+
+Configure internet:
+sudo yast2
+go to System > Network Settings
+use tab to scroll, select your device, press edit, and change the IP 
+thing to DYNAMIC. If it's wireless, pressing next will lead you to a 
+menu where you can scan for networks and log into them. Finish up and 
+exit. yay!
+
+ROFI:
+install
+go into ~/.config/rc.xml
+find where it says keybinds for windows
+insert: <keybind key="C-space"><action name="Execute"><command>rofi 
+-show run</command></action></keybind>
+link starwars-colors/dots/config.rasi ~/.config/dots/config.rasi
+openbox --reconfigure
