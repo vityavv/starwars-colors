@@ -42,7 +42,7 @@ URxvt*depth: 32
 !URxvt.shading: 0
 !URxvt.tintColor: #000000
 
-URxvt*font: xft:Anonymous Pro:pixelsize=20
+URxvt*font: xft:Fira Mono:size=12
 URxvt*letterSpace: 0.75
 URxvt*scrollBar: false
 URxvt*perl-ext-common: clipboard
