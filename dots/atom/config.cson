@@ -1,0 +1,46 @@
+"*":
+  "bracket-matcher":
+    autocompleteBrackets: false
+  core:
+    autoHideMenuBar: true
+    disabledPackages: [
+      "about"
+      "autocomplete-atom-api"
+      "autocomplete-css"
+      "autocomplete-html"
+      "autocomplete-plus"
+      "autocomplete-snippets"
+      "wrap-guide"
+      "autoflow"
+      "autosave"
+      "bookmarks"
+      "encoding-selector"
+      "github"
+      "go-to-line"
+      "link"
+      "metrics"
+      "open-on-github"
+      "snippets"
+      "styleguide"
+      "symbols-view"
+    ]
+    projectHome: "/home/victor/programs"
+    telemetryConsent: "no"
+    themes: [
+      "seti-ui"
+      "starwars-syntax"
+    ]
+  editor:
+    fontFamily: "Anonymous Pro"
+    showIndentGuide: true
+    softTabs: false
+    softWrap: true
+    softWrapHangingIndent: 4
+    tabType: "hard"
+    zoomFontWhenCtrlScrolling: false
+  "exception-reporting":
+    userId: "73922da8-697a-4ebe-a93a-ba7270f97c89"
+  "seti-ui":
+    themeColor: "Orange"
+  welcome:
+    showOnStartup: false
